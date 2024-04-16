@@ -1,0 +1,14 @@
+.InputPanel {
+    /*Grid*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    width: 20.938rem;
+    height: 20.938rem;
+
+    font-size: 2rem;
+    color: var(--white);
+}
